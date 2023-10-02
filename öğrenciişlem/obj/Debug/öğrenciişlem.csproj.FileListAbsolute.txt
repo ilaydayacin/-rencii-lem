@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.Form1.resources
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\ilaydayalcin836\öğrenciişlem\öğrenciişlem\obj\Debug\öğrenciişlem.csproj.CoreCompileInputs.cache

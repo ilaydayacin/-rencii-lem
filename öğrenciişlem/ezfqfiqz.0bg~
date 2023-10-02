@@ -1,0 +1,302 @@
+﻿namespace öğrenciişlem
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblBilgi = new System.Windows.Forms.Label();
+            this.lblNo = new System.Windows.Forms.Label();
+            this.lblsinif = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.lblCinsiyet = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblSoyad = new System.Windows.Forms.Label();
+            this.lblTelefon = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblAra = new System.Windows.Forms.Label();
+            this.lblİslem = new System.Windows.Forms.Label();
+            this.lblOgrenci = new System.Windows.Forms.Label();
+            this.txtOgrenciAd = new System.Windows.Forms.TextBox();
+            this.btnKaydet = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.BtnGuncelle = new System.Windows.Forms.Button();
+            this.listOgrenci = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // lblBilgi
+            // 
+            this.lblBilgi.AutoSize = true;
+            this.lblBilgi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBilgi.Location = new System.Drawing.Point(3, -1);
+            this.lblBilgi.Name = "lblBilgi";
+            this.lblBilgi.Size = new System.Drawing.Size(74, 15);
+            this.lblBilgi.TabIndex = 0;
+            this.lblBilgi.Text = "Bilgi Girişi";
+            // 
+            // lblNo
+            // 
+            this.lblNo.AutoSize = true;
+            this.lblNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblNo.Location = new System.Drawing.Point(34, 38);
+            this.lblNo.Name = "lblNo";
+            this.lblNo.Size = new System.Drawing.Size(71, 17);
+            this.lblNo.TabIndex = 1;
+            this.lblNo.Text = "Okul No:";
+            // 
+            // lblsinif
+            // 
+            this.lblsinif.AutoSize = true;
+            this.lblsinif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblsinif.Location = new System.Drawing.Point(60, 65);
+            this.lblsinif.Name = "lblsinif";
+            this.lblsinif.Size = new System.Drawing.Size(45, 17);
+            this.lblsinif.TabIndex = 2;
+            this.lblsinif.Text = "Sınıf:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(112, 38);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.TabIndex = 3;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(112, 65);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // lblAd
+            // 
+            this.lblAd.AutoSize = true;
+            this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAd.Location = new System.Drawing.Point(288, 38);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(32, 17);
+            this.lblAd.TabIndex = 5;
+            this.lblAd.Text = "Ad:";
+            // 
+            // lblCinsiyet
+            // 
+            this.lblCinsiyet.AutoSize = true;
+            this.lblCinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCinsiyet.Location = new System.Drawing.Point(250, 65);
+            this.lblCinsiyet.Name = "lblCinsiyet";
+            this.lblCinsiyet.Size = new System.Drawing.Size(70, 17);
+            this.lblCinsiyet.TabIndex = 6;
+            this.lblCinsiyet.Text = "Cinsiyet:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(327, 64);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(327, 38);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 20);
+            this.textBox2.TabIndex = 8;
+            // 
+            // lblSoyad
+            // 
+            this.lblSoyad.AutoSize = true;
+            this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSoyad.Location = new System.Drawing.Point(477, 38);
+            this.lblSoyad.Name = "lblSoyad";
+            this.lblSoyad.Size = new System.Drawing.Size(58, 17);
+            this.lblSoyad.TabIndex = 9;
+            this.lblSoyad.Text = "Soyad:";
+            // 
+            // lblTelefon
+            // 
+            this.lblTelefon.AutoSize = true;
+            this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTelefon.Location = new System.Drawing.Point(467, 69);
+            this.lblTelefon.Name = "lblTelefon";
+            this.lblTelefon.Size = new System.Drawing.Size(68, 17);
+            this.lblTelefon.TabIndex = 10;
+            this.lblTelefon.Text = "Telefon:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(531, 38);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(121, 20);
+            this.textBox3.TabIndex = 11;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(531, 69);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(121, 20);
+            this.textBox4.TabIndex = 12;
+            // 
+            // lblAra
+            // 
+            this.lblAra.AutoSize = true;
+            this.lblAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAra.Location = new System.Drawing.Point(34, 218);
+            this.lblAra.Name = "lblAra";
+            this.lblAra.Size = new System.Drawing.Size(54, 17);
+            this.lblAra.TabIndex = 13;
+            this.lblAra.Text = "Arama";
+            // 
+            // lblİslem
+            // 
+            this.lblİslem.AutoSize = true;
+            this.lblİslem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblİslem.Location = new System.Drawing.Point(343, 218);
+            this.lblİslem.Name = "lblİslem";
+            this.lblİslem.Size = new System.Drawing.Size(64, 17);
+            this.lblİslem.TabIndex = 14;
+            this.lblİslem.Text = "İşlemler";
+            // 
+            // lblOgrenci
+            // 
+            this.lblOgrenci.AutoSize = true;
+            this.lblOgrenci.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblOgrenci.Location = new System.Drawing.Point(44, 253);
+            this.lblOgrenci.Name = "lblOgrenci";
+            this.lblOgrenci.Size = new System.Drawing.Size(98, 17);
+            this.lblOgrenci.TabIndex = 15;
+            this.lblOgrenci.Text = "Öğrenci Adı:";
+            // 
+            // txtOgrenciAd
+            // 
+            this.txtOgrenciAd.Location = new System.Drawing.Point(138, 253);
+            this.txtOgrenciAd.Name = "txtOgrenciAd";
+            this.txtOgrenciAd.Size = new System.Drawing.Size(148, 20);
+            this.txtOgrenciAd.TabIndex = 16;
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKaydet.Location = new System.Drawing.Point(413, 239);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(93, 44);
+            this.btnKaydet.TabIndex = 17;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.UseVisualStyleBackColor = true;
+            // 
+            // btnSil
+            // 
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.Location = new System.Drawing.Point(512, 240);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(93, 44);
+            this.btnSil.TabIndex = 18;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            // 
+            // BtnGuncelle
+            // 
+            this.BtnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnGuncelle.Location = new System.Drawing.Point(611, 239);
+            this.BtnGuncelle.Name = "BtnGuncelle";
+            this.BtnGuncelle.Size = new System.Drawing.Size(93, 44);
+            this.BtnGuncelle.TabIndex = 19;
+            this.BtnGuncelle.Text = "Güncelle";
+            this.BtnGuncelle.UseVisualStyleBackColor = true;
+            // 
+            // listOgrenci
+            // 
+            this.listOgrenci.BackColor = System.Drawing.Color.Silver;
+            this.listOgrenci.FormattingEnabled = true;
+            this.listOgrenci.Location = new System.Drawing.Point(-76, 303);
+            this.listOgrenci.Name = "listOgrenci";
+            this.listOgrenci.Size = new System.Drawing.Size(816, 212);
+            this.listOgrenci.TabIndex = 20;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(698, 511);
+            this.Controls.Add(this.listOgrenci);
+            this.Controls.Add(this.BtnGuncelle);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnKaydet);
+            this.Controls.Add(this.txtOgrenciAd);
+            this.Controls.Add(this.lblOgrenci);
+            this.Controls.Add(this.lblİslem);
+            this.Controls.Add(this.lblAra);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lblTelefon);
+            this.Controls.Add(this.lblSoyad);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.lblCinsiyet);
+            this.Controls.Add(this.lblAd);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblsinif);
+            this.Controls.Add(this.lblNo);
+            this.Controls.Add(this.lblBilgi);
+            this.Name = "Form1";
+            this.Text = "Öğrenci işlemleri";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblBilgi;
+        private System.Windows.Forms.Label lblNo;
+        private System.Windows.Forms.Label lblsinif;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblAd;
+        private System.Windows.Forms.Label lblCinsiyet;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblSoyad;
+        private System.Windows.Forms.Label lblTelefon;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblAra;
+        private System.Windows.Forms.Label lblİslem;
+        private System.Windows.Forms.Label lblOgrenci;
+        private System.Windows.Forms.TextBox txtOgrenciAd;
+        private System.Windows.Forms.Button btnKaydet;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button BtnGuncelle;
+        private System.Windows.Forms.ListBox listOgrenci;
+    }
+}
+
